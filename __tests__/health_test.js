@@ -14,3 +14,14 @@ test('health < 15 should return "critical"', () => {
     const character = { name: 'Маг', health: 8 };
     expect(healthLevel(character)).toEqual('critical');
 });
+
+
+
+test('name === "мечник" and health == 10 should return "мечник"', () => {
+});
+
+test('name === "маг" and health == 100 should return "маг"', () => {
+});
+
+test('name === "лучник" and health == 80 should return "лучник"', () => {
+});
